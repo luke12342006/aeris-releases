@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aeris — manutenzione del PC, senza sorprese</title>
+<meta name="description" content="Aeris pulisce, aggiorna e ripara il PC Windows. Nessuna pubblicità, nessun elemento nascosto, ogni modifica si annulla.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  :root { --bg: #0b0b10; --surface: #15151d; --border: #262632; --text: #f2f2f7; --text-2: #a7a7b8; --accent: #8b6cff; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f7f7fb; --surface: #ffffff; --border: #e3e3ec; --text: #15151d; --text-2: #55556a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; }
+  header img { width: 44px; height: 44px; }
+  header strong { font-size: 22px; }
+  h1 { font-size: clamp(30px, 6vw, 48px); line-height: 1.1; margin: 48px 0 14px; }
+  .lead { font-size: 19px; color: var(--text-2); max-width: 640px; }
+  .cta { display: inline-block; margin-top: 22px; padding: 13px 24px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 48px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .card h3 { margin: 0 0 6px; font-size: 17px; }
+  .card p { margin: 0; color: var(--text-2); font-size: 15px; }
+  footer { margin-top: 56px; color: var(--text-2); font-size: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="icon.svg" alt=""><strong>Aeris</strong></header>
+  <h1>Il PC pulito, aggiornato e sotto controllo.</h1>
+  <p class="lead">Aeris è un programma per Windows che pulisce i file inutili, aggiorna programmi e driver, controlla cosa parte all'avvio e ripara Windows. Senza pubblicità, senza elementi nascosti: ogni modifica si può annullare.</p>
+  <a class="cta" href="https://github.com/luke12342006/aeris-releases/releases/latest">Scarica Aeris per Windows</a>
+
+  <div class="grid">
+    <div class="card"><h3>Pulizia con avvisi chiari</h3><p>Scegli cosa pulire da un catalogo; se una voce ha conseguenze (password, cronologia) Aeris te lo dice prima.</p></div>
+    <div class="card"><h3>Aggiornamenti verificati</h3><p>Programmi, app dello Store, Windows e driver in un passaggio, senza richieste di conferma per ogni installer.</p></div>
+    <div class="card"><h3>Pulizia cloud e posta</h3><p>Trova copie e file pesanti su Google Drive, OneDrive e Dropbox e messaggi ingombranti nella posta. Tutto resta sul tuo PC.</p></div>
+    <div class="card"><h3>Tutto si annulla</h3><p>Ogni modifica finisce nel Centro annulla: se qualcosa non ti torna, rimetti com'era con un clic.</p></div>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Informativa sulla privacy</a>
+    <a href="privacy.html#en">Privacy policy (English)</a>
+    <a href="https://github.com/luke12342006/aeris-releases/issues">Contatti e assistenza</a>
+    <span>© 2026 Aeris</span>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aeris — Informativa sulla privacy</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  :root { --bg: #0b0b10; --text: #f2f2f7; --text-2: #a7a7b8; --accent: #8b6cff; --border: #262632; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f7f7fb; --text: #15151d; --text-2: #55556a; --border: #e3e3ec; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.7 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 32px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 6px; }
+  p, li { color: var(--text-2); }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">← Aeris</a></p>
+<h1>Informativa sulla privacy</h1>
+<p>Ultimo aggiornamento: 4 ottobre 2026</p>
+
+<h2>In breve</h2>
+<p>Aeris funziona sul tuo PC. I tuoi file, la tua posta e i dati dei tuoi account cloud vengono elaborati solo sul tuo computer e non vengono mai inviati a server dello sviluppatore di Aeris. Aeris non contiene pubblicità, non vende dati e non usa sistemi di tracciamento.</p>
+
+<h2>Dati che Aeris usa sul tuo PC</h2>
+<ul>
+  <li>Elenco dei programmi installati, dei file da pulire, delle voci di avvio e dei driver, per mostrarteli e applicare le modifiche che scegli.</li>
+  <li>Una cronologia locale delle modifiche (Centro annulla), salvata nella cartella dell'utente.</li>
+  <li>Le credenziali degli account collegati (token di accesso, password per le app) salvate cifrate con la protezione di Windows dell'utente (DPAPI): leggibili solo dal tuo account su questo PC.</li>
+</ul>
+
+<h2>Dati degli utenti Google (Gmail e Google Drive)</h2>
+<p>Se scegli di collegare un account Google, Aeris chiede l'accesso solo per le funzioni che usi:</p>
+<ul>
+  <li><strong>Gmail</strong> (<code>https://mail.google.com/</code>): per leggere le intestazioni dei messaggi (mittente, oggetto, data, dimensione) e mostrarti quelli grandi, vecchi o le newsletter; e per spostare nel cestino di Gmail solo i messaggi che scegli tu.</li>
+  <li><strong>Google Drive</strong> (<code>https://www.googleapis.com/auth/drive</code>): per elencare i file (nome, dimensione, data, impronta) e trovare copie e file pesanti; e per spostare nel cestino di Drive solo i file che scegli tu.</li>
+  <li>Il tuo indirizzo email, per mostrarti quale account è collegato ed evitare di collegarlo due volte.</li>
+</ul>
+<p>Questi dati vengono elaborati solo sul tuo PC, non vengono salvati su server, non vengono condivisi con nessuno, non vengono usati per pubblicità né per addestrare modelli di intelligenza artificiale. Il contenuto dei messaggi e dei file non viene letto né scaricato.</p>
+<p>L'uso e il trasferimento ad altre applicazioni delle informazioni ricevute dalle API di Google da parte di Aeris rispettano le <a href="https://developers.google.com/terms/api-services-user-data-policy">Norme relative ai dati utente dei servizi API di Google</a>, compresi i requisiti di Uso limitato (Limited Use).</p>
+<p>Puoi scollegare l'account in qualsiasi momento da Aeris (il token viene cancellato dal PC) e revocare l'accesso dalla pagina <a href="https://myaccount.google.com/permissions">Account Google → Sicurezza → App di terze parti</a>.</p>
+
+<h2>Microsoft (Outlook, OneDrive) e Dropbox</h2>
+<p>Valgono le stesse regole: accesso solo per le funzioni scelte, dati elaborati sul tuo PC, nessun invio a server di Aeris.</p>
+
+<h2>Connessioni a Internet</h2>
+<p>Aeris si collega a Internet solo per: controllare e scaricare i propri aggiornamenti firmati (GitHub), le regole di pulizia (winapp2), gli aggiornamenti dei programmi (Microsoft WinGet, Microsoft Store, Windows Update), i cataloghi driver ufficiali dei produttori, e i servizi degli account che colleghi tu.</p>
+
+<h2>Contatti</h2>
+<p>Per domande sulla privacy: <a href="https://github.com/luke12342006/aeris-releases/issues">github.com/luke12342006/aeris-releases/issues</a>.</p>
+
+<hr>
+
+<h1 id="en">Privacy policy</h1>
+<p>Last updated: October 4, 2026</p>
+
+<h2>Summary</h2>
+<p>Aeris runs on your PC. Your files, your email and your cloud account data are processed only on your computer and are never sent to servers of the Aeris developer. Aeris has no ads, does not sell data and does not use tracking.</p>
+
+<h2>Google user data (Gmail and Google Drive)</h2>
+<p>If you choose to connect a Google account, Aeris requests access only for the features you use:</p>
+<ul>
+  <li><strong>Gmail</strong> (<code>https://mail.google.com/</code>): to read message headers (sender, subject, date, size) to show you large, old or newsletter messages, and to move to the Gmail trash only the messages you select.</li>
+  <li><strong>Google Drive</strong> (<code>https://www.googleapis.com/auth/drive</code>): to list files (name, size, date, checksum) to find duplicates and large files, and to move to the Drive trash only the files you select.</li>
+  <li>Your email address, to show which account is connected and avoid connecting it twice.</li>
+</ul>
+<p>This data is processed only on your PC, is not stored on any server, is not shared with anyone, and is not used for advertising or to train AI models. Message and file contents are not read or downloaded.</p>
+<p>Aeris's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p>You can disconnect the account at any time in Aeris (the token is deleted from the PC) and revoke access at <a href="https://myaccount.google.com/permissions">Google Account → Security → Third-party apps</a>.</p>
+
+<h2>Microsoft (Outlook, OneDrive) and Dropbox</h2>
+<p>The same rules apply: access only for the features you choose, data processed on your PC, nothing sent to Aeris servers.</p>
+
+<h2>Internet connections</h2>
+<p>Aeris connects to the Internet only to check and download its own signed updates (GitHub), cleaning rules (winapp2), program updates (Microsoft WinGet, Microsoft Store, Windows Update), official driver catalogs from PC manufacturers, and the services of the accounts you connect.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions: <a href="https://github.com/luke12342006/aeris-releases/issues">github.com/luke12342006/aeris-releases/issues</a>.</p>
+</main>
+</body>
+</html>
